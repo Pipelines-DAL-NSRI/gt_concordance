@@ -1,0 +1,5 @@
+Package: gt_concordance
+Type: Package
+Title: Calculates the concordance of overlapping data from 2 files
+Version: 0.0.1.0
+RoxygenNote: 7.3.2
