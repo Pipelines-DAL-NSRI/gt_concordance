@@ -4,12 +4,14 @@
 \alias{concordance}
 \title{Concordance analysis}
 \usage{
-concordance(file1, file2)
+concordance(file1, file2, haplotypes = FALSE)
 }
 \arguments{
 \item{file1}{is either an xlsx or csv file}
 
 \item{file2}{is either an xlsx or csv file}
+
+\item{haplotypes}{(required) if set to TRUE, will no longer change the allele arrangement.}
 }
 \description{
 This package identifies overlapping data (usually samples) between two files 
@@ -17,5 +19,5 @@ and calculates the total number of matching data (usually genotypes).
 It creates both an output csv file and a barplot.
 }
 \examples{
-concordance("genotypes1.xlsx", "genotypes2.xlsx")
+concordance("genotypes1.xlsx", "genotypes2.xlsx", haplotypes = FALSE)
 }

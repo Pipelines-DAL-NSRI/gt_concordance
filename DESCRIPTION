@@ -1,5 +1,6 @@
 Package: gt_concordance
 Type: Package
 Title: Calculates the concordance of overlapping data from 2 files
-Version: 0.0.1.0
+Version: 0.0.2.0
+Imports: readr, readxl, tools, dplyr, janitor, purrr, tibble, tidyselect, QurvE, tidyr, ggplot2, forcats
 RoxygenNote: 7.3.2
