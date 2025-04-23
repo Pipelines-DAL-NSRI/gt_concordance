@@ -13,4 +13,6 @@ concordance(file1, file2, haplotype = FALSE)
 @param *haplotypes* is a required parameter asking if the data are haplotypes. If set to FALSE (default), the function will homogenize the allele orders.
 
 ## Usage
-concordance("samplefile1.xslx", "samplefile2.xlsx")
+```
+concordance("samplefile1.xslx", "samplefile2.xlsx", haplotypes = FALSE)
+```
