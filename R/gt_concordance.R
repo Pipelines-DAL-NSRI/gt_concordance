@@ -23,6 +23,12 @@
 
 concordance <- function(file1, file2, haplotypes = FALSE){
    
+   if (!require("pacman")){
+      install.packages("pacman")
+   }
+   
+   pacman::p_load(readr, readxl, tools, dplyr, janitor, purrr, tibble, tidyselect, QurvE, tidyr, ggplot2, forcats, install = TRUE)
+   
    # check if file exists
    # read in the file
    if(!file.exists(file1)){
